@@ -1,0 +1,20 @@
+authorName: wby
+experimentName: NewGNN
+trialConcurrency: 1
+maxExecDuration: 80h
+maxTrialNum: 600
+trainingServicePlatform: local
+searchSpacePath: search_space.json
+useAnnotation: false
+multiThread: false
+tuner:
+  builtinTunerName: Evolution
+  classArgs:
+    optimize_mode: maximize
+    population_size: 30
+trial:
+  command: python main.py
+  codeDir: .
+  gpuNum: 4
+localConfig:
+  useActiveGpu: true

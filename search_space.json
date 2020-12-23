@@ -1,0 +1,15 @@
+{
+    "batch_size": {"_type":"choice", "_value": [16, 32, 64]},
+    "fc_channel":{"_type":"choice","_value":[32,64, 128, 256]},
+    "lr":{"_type":"choice","_value":[0.0003,0.0001,0.001,0.003,0.01,0.03,0.1,0.3, 0.00001,0.00003]},
+    "weight_decay":{"_type":"choice","_value":[0,0.1,0.03,0.3,0.003,0.0003]},
+    "top_k":{"_type":"choice", "_value": [30,100]},
+    "fc_layers_num": {"_type":"choice","_value": [2,3,4,5,6]},
+    "drop_out": {"_type":"choice","_value": [0.1,0.3,0.5,0, 0.05, 0.01]},
+    "conv_channel": {"_type":"choice","_value": [32, 64, 128, 256,512]},
+    "conv1d_channel": {"_type":"choice","_value": [32, 64, 128, 256,512]},
+    "K": {"_type":"choice","_value": [3,4,5,6]},
+    "m": {"_type":"choice","_value": [4,6,9,12,15]},
+    "gcn_num": {"_type":"choice","_value": [3,4,5,6,9,11]},
+    "eps": {"_type":"choice","_value": [0,0.05,0.1,0.2]}
+}
