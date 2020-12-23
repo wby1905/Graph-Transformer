@@ -11,4 +11,4 @@ The main structure is shown below.
 
 This is a very first version, many bugs may occur.
 
-Further improvements will be seen soon.
+Further improvement is coming soon.
